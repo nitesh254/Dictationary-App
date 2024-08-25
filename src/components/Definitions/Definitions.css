@@ -1,0 +1,31 @@
+.meanings {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 55vh;
+    border: 5px solid rgb(105, 105, 105);
+    padding: 10px 20px;
+    overflow-x: hidden;
+    font-family: "Abel";
+  }
+  
+  .subTitle {
+    font-size: 5vw;
+    font-family: "Abel";
+  }
+  
+  @media (max-width: 900px) {
+    .meanings {
+      overflow: scroll;
+      overflow-x: hidden;
+      height: 60vh;
+    }
+  }
+  .singleMean {
+    display: flex;
+    flex-direction: column; 
+    padding: 10px 20px;
+    margin: 10px 0;
+  }
+  

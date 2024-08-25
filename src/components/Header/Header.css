@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: "Abel";
+  }
+  
+  @media (max-width: 900px) {
+    .header {
+      justify-content: space-evenly;
+      height: 25vh;
+      font-family: "Abel";
+    }
+    .title {
+      font-size: 11vw;
+      font-family: "Abel";
+    }
+  }
+  
+  .inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Abel";
+  }
+  
+  .search {
+    width: 43%;
+    font-family: "Abel";
+  }
+  
+  .select {
+    width: 43%;
+    font-family: "Abel";
+  }
+  
